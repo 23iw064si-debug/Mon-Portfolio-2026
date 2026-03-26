@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <title>Mon portfolio | Manix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div>
-            <a href="">Mon portfolio</a>
+        <div class="logo">
+            <a href="index.html">Mon portfolio</a>
         </div>
         <nav>
             <ul>
@@ -25,39 +25,41 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="hero">
-            <div>
+            <div class="hero-text">
                 <h1>Bonjour, Je suis Manix</h1>
-                <p>Etudiant en L2 et passionne par le web</p>
-                <a href="">Voir mes projets</a>
+                <p>Etudiant en L2 et passionné par le développement web</p>
+                <a href="#projets" class="btn-hero">Voir mes projets</a>
             </div>
-            <div>
-                <img src="image/Manix.jpg" width="300" alt="Manix Profil">
+            <div class="hero-img">
+                <img src="image/Manix.jpg" alt="Manix Profil">
             </div>
         </section>
-        <section>
-            <div>
+
+        <section class="apropos">
+            <div class="section-title">
                 <h2>À Propos de moi</h2>
                 <hr>
             </div>
-            <div>
+            <div class="content">
                 <p>
                     Bonjour ! Je m'appelle DJO Ifusola et je suis un étudiant dynamique et motivé en Informatique à l'UDBL. Passionné par le développement web, l'intelligence artificielle, et le design graphique, je suis constamment à la recherche de nouvelles opportunités d'apprentissage et de défis stimulants.
                 </p>
                 <p>
-                    Au cours de mes études, j'ai développé de solides compétences en programmation. Je suis une personne rigoureuse, créative et j'aime travailler en équipe pour atteindre des objectifs communs. Mon objectif est de contribuer à des projets innovants, trouver un stage, et maitriser le Framework Laravel.
+                    Au cours de mes études, j'ai développé de solides compétences en programmation. Je suis une personne rigoureuse, créative et j'aime travailler en équipe pour atteindre des objectifs communs. Mon objectif est de contribuer à des projets innovants, trouver un stage, et maîtriser le Framework Laravel.
                 </p>
             </div>
         </section>
-        <section>
-            <div>
+
+        <section class="competence">
                 <h2>Mes Compétences</h2>
                 <hr>
             </div>
-            <div>
+            <div class="table-container">
                 <table>
-                    <caption>MES COMPÉTENCES</caption>
+                    <caption>MES COMPÉTENCES TECHNIQUES</caption>
                     <thead>
                         <tr>
                             <th>CATÉGORIE</th> 
@@ -71,13 +73,13 @@
                             <td>Avancé</td>
                         </tr>
                         <tr>
-                            <td>design</td>
+                            <td>Design</td>
                             <td>Figma, Photoshop (Base) </td>
                             <td>Intermédiaire </td>
                         </tr>
                         <tr>
                             <td>Langues</td>
-                            <td>Francais(natif), Anglais (Fluide)</td>
+                            <td>Français (natif), Anglais (Fluide)</td>
                             <td>Avancé</td>
                         </tr>
                         <tr>
@@ -95,13 +97,16 @@
             </div>
         </section>
     </main>
+
     <footer>
-        <div>
-            <p>© 2026 Manix. Tous droit réservés</p>
+        <div class="footer-content">
+            <p>© 2026 Manix. Tous droits réservés</p>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
         </div>
-            <a href="facebook.com"><i class="fa-brands fa-facebook"></i></a>
-            <a href="github.com"><i class="fa-brands fa-github"></i></a>
-            <a href="youtube.com"><i class="fa-brands fa-youtube"></i></a>
     </footer>
 </body>
 </html>
